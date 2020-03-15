@@ -19,6 +19,21 @@ This repository contain any information that can be used to hack Kubernetes.
 
 [A Hacker's Guide to Kubernetes and the Cloud - Rory McCune, NCC Group PLC (Intermediate Skill Level)](https://www.youtube.com/watch?v=dxKpCO2dAy8)  
 
+## Vulnerabilities
+### 2019
+
+[Top 5 Kubernetes Vulnerabilities of 2019 - the Year in Review](https://www.stackrox.com/post/2020/01/top-5-kubernetes-vulnerabilities-of-2019-the-year-in-review/)
+
+#### Kubectl vulnerability (CVE-2019-1002101)
+[Disclosing a directory traversal vulnerability in Kubernetes copy – CVE-2019-1002101](https://unit42.paloaltonetworks.com/disclosing-directory-traversal-vulnerability-kubernetes-copy-cve-2019-1002101/)
+
+#### Kubernetes API server vulnerability (CVE-2019-11247)
+[Kubernetes API server vulnerability (CVE-2019-11247)](https://www.stackrox.com/post/2019/08/how-to-remediate-kubernetes-security-vulnerability-cve-2019-11247/)
+
+#### Kubernetes billion laughs attack vulnerability (CVE-2019-11253)
+
+[CVE-2019-11253: Kubernetes API Server JSON/YAML parsing vulnerable to resource exhaustion attack](https://github.com/kubernetes/kubernetes/issues/83253)
+
 ## Tools  
 
 
