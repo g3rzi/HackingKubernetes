@@ -19,6 +19,8 @@ This repository contain any information that can be used to hack Kubernetes.
 
 [A Hacker's Guide to Kubernetes and the Cloud - Rory McCune, NCC Group PLC (Intermediate Skill Level)](https://www.youtube.com/watch?v=dxKpCO2dAy8)  
 
+[Advanced Persistence Threats: The Future of Kubernetes Attacks](https://www.youtube.com/watch?v=CH7S5rE3j8w)
+
 ## Vulnerabilities
 ### 2019
 
