@@ -9,7 +9,7 @@ This repository contain any information that can be used to hack Kubernetes.
 [Kubernetes Pentest Methodology Part 3](https://www.cyberark.com/threat-research-blog/kubernetes-pentest-methodology-part-3/)  
 [Eight Ways to Create a Pod](https://www.cyberark.com/threat-research-blog/eight-ways-to-create-a-pod/)  
 [Leaked Code from Docker Registries](https://unit42.paloaltonetworks.com/leaked-docker-code/)  
-[https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts](https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts)
+[Kubernetes Pod Escape Using Log Mounts](https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts)
 
 ### kubelet
 [https://faun.pub/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca](https://faun.pub/attacking-kubernetes-clusters-using-the-kubelet-api-abafc36126ca)
