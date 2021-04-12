@@ -28,6 +28,7 @@ This repository contain any information that can be used to hack Kubernetes.
 ## PDF  
 [Abusing Privileged and Unprivileged Linux
 Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2016/june/container_whitepaper.pdf)  
+[Defending Containers](https://www.intezer.com/wp-content/uploads/2021/03/Intezer-Defending-Containers.pdf)   
 
 ## Videos    
 [Compromising Kubernetes Cluster by Exploiting RBAC Permissions](https://www.youtube.com/watch?v=1LMo0CftVC4)   
