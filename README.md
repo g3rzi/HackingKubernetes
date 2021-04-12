@@ -65,8 +65,11 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 
 [Demystifying Kubernetes CVE-2018-1002105 (and a dead simple exploit)](https://unit42.paloaltonetworks.com/demystifying-kubernetes-cve-2018-1002105-dead-simple-exploit/)  
 [https://sysdig.com/blog/privilege-escalation-kubernetes-dashboard/](CVE-2018-18264 Privilege escalation through Kubernetes dashboard.)  
+
 ## Tools  
-
-
+[kubesploit](https://github.com/cyberark/kubesploit)  
+[kubiscan](https://github.com/cyberark/KubiScan)  
+[kubeletctl](https://github.com/cyberark/kubeletctl)   
+[kube-hunter](https://github.com/aquasecurity/kube-hunter)  
 # Defensive  
 [Smarter Kubernetes Access Control: A Simpler Approach to Auth - Rob Scott, ReactiveOps](https://www.youtube.com/watch?v=egQnymnZ9eg)  
