@@ -71,5 +71,17 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 [kubiscan](https://github.com/cyberark/KubiScan)  
 [kubeletctl](https://github.com/cyberark/kubeletctl)   
 [kube-hunter](https://github.com/aquasecurity/kube-hunter)  
+
 # Defensive  
 [Smarter Kubernetes Access Control: A Simpler Approach to Auth - Rob Scott, ReactiveOps](https://www.youtube.com/watch?v=egQnymnZ9eg)  
+
+
+# Others
+## Install minikube  
+The documentation can be found [here](https://minikube.sigs.k8s.io/docs/start/). In AWS you need to run:  
+```
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+install minikube-linux-amd64 /usr/local/bin/minikube
+swapoff -a
+minikube start --driver=none
+```  
