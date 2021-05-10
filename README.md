@@ -85,3 +85,27 @@ install minikube-linux-amd64 /usr/local/bin/minikube
 swapoff -a
 minikube start --driver=none
 ```  
+
+
+## Create containers
+### Privileged container
+```
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  name: priv-pod
+spec:
+  containers:
+  - name: sec-ctx-8
+    image: gcr.io/google-samples/node-hello:1.0
+    securityContext:
+      allowPrivilegeEscalation: true
+      privileged: true
+      readOnlyRootFilesystem: true
+      runAsNonRoot: true
+      runAsUser: 1000
+      capabilities:
+        add: ["NET_ADMIN", "SYS_TIME"]
+EOF
+```
