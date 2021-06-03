@@ -109,3 +109,10 @@ spec:
         add: ["NET_ADMIN", "SYS_TIME"]
 EOF
 ```
+
+## Get ServiceAccount token by name
+```
+kubectl get secrets $(kubectl get sa <SERVICE_ACCOUNT_NAME> -o json | jq -r '.secrets[].name') -o json | jq -r '.data.token' | base64 -d
+```
+
+*Replace `<SERVICE_ACCOUNT_NAME>` with the name
