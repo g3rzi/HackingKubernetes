@@ -116,6 +116,117 @@ spec:
 EOF
 ```
 
+### Container with environment variables passwords
+
+```
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  name: envvars-db
+  namespace: default
+spec:
+  containers:
+  - name: envvars-multiple-secrets
+    image: nginx
+    env:
+    - name: DB_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          key: db-username-key
+          name: db-username
+    - name: DB_USERNAME
+      valueFrom:
+        secretKeyRef:
+          key: db-password-key
+          name: db-password
+EOF
+
+```
+
+
+```
+kubectl apply -f - <<EOF
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: mars
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: mars
+  name: user1
+  
+---
+
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: kube-system
+  name: list-secrets
+rules:
+- apiGroups: ["*"]
+  resources: ["secrets"]
+  verbs: ["get", "list"]
+  
+---
+
+apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRoleBinding
+metadata:
+  namespace: kube-system
+  name: list-secrets-binding
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: list-secrets
+subjects:
+  - kind: ServiceAccount
+    name: user1
+    namespace: mars
+    
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpine-secret
+  namespace: mars
+spec:
+  containers:
+  - name: alpine-secret
+    image: alpine
+    command: ["/bin/sh"]
+    args: ["-c", "sleep 100000"]
+  serviceAccountName: user1
+  automountServiceAccountToken: true
+  hostNetwork: true
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-username
+data:
+  db-username-key: YWRtaW4=
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-password
+data:
+  db-password-key: MTIzNDU=
+
+EOF
+
+```
+
 ## Get ServiceAccount token by name
 ```
 kubectl get secrets $(kubectl get sa <SERVICE_ACCOUNT_NAME> -o json | jq -r '.secrets[].name') -o json | jq -r '.data.token' | base64 -d
