@@ -236,7 +236,7 @@ Function:
 ```
 alias k=kubectl
 function getSecretByName {
-k get secrets $(k get serviceaccounts $1 -o json | jq -r '.secrets[].name') -o json | jq -r '.data.token' | base64 -d
+k get secrets $(k get sa $1 -o json | jq -r '.secrets[].name') -o json | jq -r '.data.token' | base64 -d
 }
 
 getSecretByName <serviceAccountName>
