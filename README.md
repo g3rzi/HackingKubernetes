@@ -245,8 +245,16 @@ getSecretByName <serviceAccountName>
 *Replace `<SERVICE_ACCOUNT_NAME>` with the name
 
 ## Delete multiple containers
+```
 // delete by match with grep
 kubectl delete po $(kubectl get pods -o go-template -n <NAMESPACE> --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}' | grep <SEARCH_STRING) -n <NAMESPACE>
 
 // delete specific pods
 kubectl delete pods -n <NAMESPACE> $(echo -e 'alpine1\nalpine2\nalpine3')
+```
+
+## Get docker container IPs
+```
+docker inspect --format='{{.Name}}' $(docker ps -aq -f label=kubelabel)
+docker inspect --format='{{ .NetworkSettings.IPAddress }}' $(docker ps -aq -f label=kubelabel)
+```
