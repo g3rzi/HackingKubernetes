@@ -33,14 +33,20 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 
 ## Videos    
 [Compromising Kubernetes Cluster by Exploiting RBAC Permissions](https://www.youtube.com/watch?v=1LMo0CftVC4)   
-
 [How We Used Kubernetes to Host a Capture the Flag (CTF) - Ariel Zelivansky & Liron Levin, Twistlock](https://www.youtube.com/watch?v=kUmaKvxdfvg) ([presentation](https://static.sched.com/hosted_files/kccnceu19/6b/kubecon%20talk.pdf))  
-
 [Crafty Requests: Deep Dive Into Kubernetes CVE-2018-1002105 - Ian Coldwater, Heroku](https://www.youtube.com/watch?v=VjSJqc13PNk) ([presentation](https://static.sched.com/hosted_files/kccnceu19/a5/craftyrequests.pdf))
-
 [A Hacker's Guide to Kubernetes and the Cloud - Rory McCune, NCC Group PLC (Intermediate Skill Level)](https://www.youtube.com/watch?v=dxKpCO2dAy8)    
-
 [Advanced Persistence Threats: The Future of Kubernetes Attacks](https://www.youtube.com/watch?v=CH7S5rE3j8w)  
+[Hack my mis-configured Kubernetes - Or Kamara](https://www.youtube.com/watch?v=XNPDtNbcPr4)  
+[LISA19 - Deep Dive into Kubernetes Internals for Builders and Operators](https://www.youtube.com/watch?v=3KtEAa7_duA)  
+[DIY Pen-Testing for Your Kubernetes Cluster - Liz Rice, Aqua Security](https://www.youtube.com/watch?v=fVqCAUJiIn0)  
+[Hacking and Hardening Kubernetes Clusters by Example](https://www.youtube.com/watch?v=vTgQLzeBfRU)  
+[Tutorial: Attacking and Defending Kube...](https://www.youtube.com/watch?v=UdMFTdeAL1s)  
+[Securing (and pentesting) the great spaghetti monster (k8s)](https://www.youtube.com/watch?v=VjGEk-F46bs)  
+[Jay Beale - Kubernetes Practical Attack and Defense](https://www.youtube.com/watch?v=LtCx3zZpOfs)    
+[Jay Beale - Quick Intro Attacking a Kubernetes Cluster](https://www.youtube.com/watch?v=fZJ-5rAwcp0)  
+[Jay Beale - Attacking and Defending Kubernetes - DEF CON 27 Packet Hacking Village](https://www.youtube.com/watch?v=2fmAuR3rnBo)  
+[Jay - Beale - Kubernetes Attack and Defense: Inception-Style](https://www.youtube.com/watch?v=cCyDAJHkNO4)  
 
 ## Vulnerabilities
 ### 2020  
