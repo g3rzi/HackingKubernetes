@@ -47,6 +47,10 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 [Jay Beale - Quick Intro Attacking a Kubernetes Cluster](https://www.youtube.com/watch?v=fZJ-5rAwcp0)  
 [Jay Beale - Attacking and Defending Kubernetes - DEF CON 27 Packet Hacking Village](https://www.youtube.com/watch?v=2fmAuR3rnBo)  
 [Jay - Beale - Kubernetes Attack and Defense: Inception-Style](https://www.youtube.com/watch?v=cCyDAJHkNO4)  
+[Attacking Kubernetes Clusters Through Your Network Plumbing](https://www.youtube.com/watch?v=gX1WXyM4IIQ)  
+[Magno Logan - TrendMicro: Kubernetes Security - Attacking and Defending K8s Clusters](https://www.youtube.com/watch?v=pl2WVPP4-Zw)  
+[Magno Logan - CloudSecNextSummit2021: Kubernetes Security - Attacking and Defending K8s Clusters](https://www.youtube.com/watch?v=Ek1oaGwfli0)   
+
 
 ## Vulnerabilities
 ### 2020  
