@@ -50,7 +50,7 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 [Attacking Kubernetes Clusters Through Your Network Plumbing](https://www.youtube.com/watch?v=gX1WXyM4IIQ)  
 [Magno Logan - TrendMicro: Kubernetes Security - Attacking and Defending K8s Clusters](https://www.youtube.com/watch?v=pl2WVPP4-Zw)  
 [Magno Logan - CloudSecNextSummit2021: Kubernetes Security - Attacking and Defending K8s Clusters](https://www.youtube.com/watch?v=Ek1oaGwfli0)   
-
+[Magno Logan - Hackfest HF: Kubernetes Security: Attacking and Defending K8s Clusters](https://www.youtube.com/watch?v=ROiCGwVV_zU)  
 
 ## Vulnerabilities
 ### 2020  
