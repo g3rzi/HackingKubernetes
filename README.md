@@ -10,7 +10,6 @@ This repository contain any information that can be used to hack Kubernetes.
 [Eight Ways to Create a Pod](https://www.cyberark.com/threat-research-blog/eight-ways-to-create-a-pod/)  
 [Leaked Code from Docker Registries](https://unit42.paloaltonetworks.com/leaked-docker-code/)  
 [Kubernetes Pod Escape Using Log Mounts](https://blog.aquasec.com/kubernetes-security-pod-escape-log-mounts)  
-[Bad Pods](https://labs.bishopfox.com/tech-blog/bad-pods-kubernetes-pod-privilege-escalation)
 
 
 ### kubelet
