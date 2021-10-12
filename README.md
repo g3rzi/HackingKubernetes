@@ -25,6 +25,8 @@ This repository contain any information that can be used to hack Kubernetes.
 [Docker Container Breakout: Abusing SYS_MODULE capability!](https://blog.pentesteracademy.com/abusing-sys-module-capability-to-perform-docker-container-breakout-cf5c29956edd)   
 [Container Breakouts – Part 1: Access to root directory of the Host](https://blog.nody.cc/posts/container-breakouts-part1/)   
 [Privileged Container Escapes with Kernel Modules](https://xcellerator.github.io/posts/docker_escape/)   
+[Digging into cgroups Escape](https://0xdf.gitlab.io/2021/05/17/digging-into-cgroups.html)  
+[Understanding Docker container escapes](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/)  
 
 ## PDF  
 [Abusing Privileged and Unprivileged Linux
