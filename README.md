@@ -2,7 +2,7 @@
 This repository contain any information that can be used to hack Kubernetes.
 
 # Offensive  
-## Atricles  
+## Articles  
 [Securing Kubernetes Clusters by Eliminating Risky Permissions](https://www.cyberark.com/threat-research-blog/securing-kubernetes-clusters-by-eliminating-risky-permissions/)  
 [Kubernetes Pentest Methodology Part 1](https://www.cyberark.com/he/threat-research-blog/kubernetes-pentest-methodology-part-1/)  
 [Kubernetes Pentest Methodology Part 2](https://www.cyberark.com/threat-research-blog/kubernetes-pentest-methodology-part-2/)  
@@ -85,6 +85,7 @@ Containers ](https://www.nccgroup.com/globalassets/our-research/us/whitepapers/2
 [kubiscan](https://github.com/cyberark/KubiScan)  
 [kubeletctl](https://github.com/cyberark/kubeletctl)   
 [kube-hunter](https://github.com/aquasecurity/kube-hunter)  
+[auger](https://github.com/jpbetz/auger)
 
 # Defensive  
 [Smarter Kubernetes Access Control: A Simpler Approach to Auth - Rob Scott, ReactiveOps](https://www.youtube.com/watch?v=egQnymnZ9eg)  
